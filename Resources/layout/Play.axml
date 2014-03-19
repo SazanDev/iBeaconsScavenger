@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_weight="1">
+        <Button
+            android:text="@string/scanBeacons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scanButton" />
+        <Button
+            android:text="@string/addAllBeacons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addAllBeaconsButton" />
+        <Button
+            android:text="@string/startGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/startGameButton" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/beaconInfoText"
+            android:layout_marginBottom="10dp" />
+        <ScrollView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/consoleText" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="bottom">
+        <Button
+            android:text="@string/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/backButton" />
+    </LinearLayout>
+</LinearLayout>

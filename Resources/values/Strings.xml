@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="start">Click me to start!</string>
+	<string name="app_name">Scavenger</string>
+	<string name="scanBeacons">Scan for Beacons</string>
+	<string name="addAllBeacons">Add all Beacons found</string>
+	<string name="startGame">Start Game</string>
+	<string name="back">Go Back</string>
+</resources>
